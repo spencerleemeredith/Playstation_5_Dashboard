@@ -83,16 +83,54 @@ header .settings .time {
       display: flex;
       margin-bottom: 250px;
     }
-      .game-nav .game{
-        background: linear-gradient(60deg, rgba(16,25,37,1) 0%, rgba(00,1) 50% rgba(16,25,37,1) 100%);
-        width: 100px;
-        height: 100px;
-        overflow: hidden; 
-        border-radius: 20%;
-        margin-right: 15px;
-        cursor: pointer;
-        border: 0px soild #576170;
-        
-      }
+    
+    .game-nav .game{
+      background: linear-gradient(60deg, rgba(16,25,37,1) 0%,  50%, rgba(16,25,37,1) 100%);
+      width: 100px;
+      height: 100px;
+      overflow: hidden;
+      border-radius: 20%;
+      margin-right: 15px;
+      cursor: pointer;
+      border: 0px solid #576170;
+      color: white;
+    }
 
-      
+      .game-nav .game:hover{
+        border: 2px solid #576170;
+       
+       }
+       
+       
+       .game-nav .game.active {
+        overflow: visible;
+        width: 150px;
+        height: 150px;
+        border: 2px solid #576170;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+       }
+       /* using after so i dont have to create another element */
+       .game-nav .game.active:after{
+         content: "Explore";
+         position: absolute;
+         color: white;
+         font-size: 1.6rem;
+         font-weight: 100;
+         bottom: 10px;
+         right: -100px;
+       }
+       .game-nav .game.active .fa{
+         font-size: 4rem;
+       }
+       .game-nav .game .img{
+         width: 100px;
+         height: 100px;
+         background-size: cover;
+         
+
+       }
+
+       

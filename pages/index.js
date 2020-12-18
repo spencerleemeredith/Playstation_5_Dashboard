@@ -37,15 +37,98 @@ export default function Home() {
     <div className="game active">
       <i className="fa fa-location-arrow"></i>
     </div>
-
+      <div className="game">
+      <div
+      className="img"
+      style={{
+        background: "url('http://i.redd.it/8pvdi0pne8a51.png')",
+        backgroundSize: "contain",
+        backgroundPosition: "center",
+        transform: "scale(1.5)",
+      }}
+      />
+    </div>
+    <div className="game">
+      <div
+      className="img"
+      style={{
+        background: "url('http://i.redd.it/8pvdi0pne8a51.png')",
+        backgroundSize: "contain",
+        backgroundPosition: "center",
+        transform: "scale(1.5)",
+      }}
+      />
+    </div>
+    <div className="game">
+      <div
+      className="img"
+      style={{
+        background: "url('http://i.redd.it/8pvdi0pne8a51.png')",
+        backgroundSize: "contain",
+        backgroundPosition: "center",
+        transform: "scale(1.5)",
+      }}
+      />
+    </div>
+    <div className="game">
+      <div
+      className="img"
+      style={{
+        background: "url('http://i.redd.it/8pvdi0pne8a51.png')",
+        backgroundSize: "contain",
+        backgroundPosition: "center",
+        transform: "scale(1.5)",
+      }}
+      />
+    </div>
+    <div className="game">
+      <div
+      className="img"
+      style={{
+        background: "url('http://i.redd.it/8pvdi0pne8a51.png')",
+        backgroundSize: "contain",
+        backgroundPosition: "center",
+        transform: "scale(1.5)",
+      }}
+      />
+    </div>
+    <div className="game">
+      <div
+      className="img"
+      style={{
+        background: "url('http://i.redd.it/8pvdi0pne8a51.png')",
+        backgroundSize: "contain",
+        backgroundPosition: "center",
+        transform: "scale(1.5)",
+      }}
+      />
+    </div>
+    <div className="game">
+      <div
+      className="img"
+      style={{
+        background: "url('http://i.redd.it/8pvdi0pne8a51.png')",
+        backgroundSize: "contain",
+        backgroundPosition: "center",
+        transform: "scale(1.5)",
+      }}
+      />
+    </div>
+    <div className="game">
+      <div
+      className="img"
+      style={{
+        background: "url('http://i.redd.it/8pvdi0pne8a51.png')",
+        backgroundSize: "contain",
+        backgroundPosition: "center",
+        transform: "scale(1.5)",
+      }}
+      />
+    </div>
     </section>
-
-
-
- </div>
+  </div>
 </div>
- 
-  )
+ )
 } 
 
 // export default function Home()
