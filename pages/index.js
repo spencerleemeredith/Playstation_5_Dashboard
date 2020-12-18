@@ -128,7 +128,7 @@ export default function Home() {
     </section>
    <section className="info">
      <span className="sub-title">
-       Offical news from Playstation | 32 minutes ago
+       Offical News From Playstation | 32 minutes ago
      </span>
      <h1> Ready for a PS5 Adventure?</h1>
      <p>
@@ -136,6 +136,7 @@ export default function Home() {
       explore the new capabilities of PS5 and feel the world.
     </p>
    </section>
+   </div>
   <section id="video-trailers">
     <div className="trailer">
       <img
@@ -151,9 +152,92 @@ export default function Home() {
   <span className="title">Cyber Punk 2077</span>
     </div>
 </div>
+<div className="trailer">
+      <img
+      className="image"
+      src="https://i.imgur.com/Wy1anig.png"
+      />
+
+<div className="video-info">
+  <div className="circle-player">
+    <i className="fa fa-play"></i>
+  </div>
+  
+  <span className="title">Cyber Punk 2077</span>
+    </div>
+</div>
+<div className="trailer">
+      <img
+      className="image"
+      src="https://i.imgur.com/Wy1anig.png"
+      />
+
+<div className="video-info">
+  <div className="circle-player">
+    <i className="fa fa-play"></i>
+  </div>
+  
+  <span className="title">Cyber Punk 2077</span>
+    </div>
+</div>
+<div className="trailer">
+      <img
+      className="image"
+      src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTUsEzqnRlRfqzRgTvWNSI4axkhEMl5mtPd0g&usqp=CAU"
+      />
+
+<div className="video-info">
+  <div className="circle-player">
+    <i className="fa fa-play"></i>
+  </div>
+  
+  <span className="title">Spider Man: Miles Morales</span>
+    </div>
+</div>
+<div className="trailer">
+      <img
+      className="image"
+      src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTA712LdhWJ738ZDw0f4X-BGKn9_1LA-931BQ&usqp=CAU"
+      />
+
+<div className="video-info">
+  <div className="circle-player">
+    <i className="fa fa-play"></i>
+  </div>
+  
+  <span className="title">NBA 2k21</span>
+    </div>
+</div>
+<div className="trailer">
+      <img
+      className="image"
+      src="https://www.godfall.com/images/screenshots/Combat-1920.jpg"
+      />
+
+<div className="video-info">
+  <div className="circle-player">
+    <i className="fa fa-play"></i>
+  </div>
+  
+  <span className="title">GodFall</span>
+    </div>
+</div>
+<div className="trailer">
+      <img
+      className="image"
+      src="https://static1-www.millenium.gg/articles/6/19/86/6/@/196478-bo-cold-war-reveal-3-article_m-1.jpg"
+      />
+
+<div className="video-info">
+  <div className="circle-player">
+    <i className="fa fa-play"></i>
+  </div>
+  
+  <span className="title">Cyber Punk 2077</span>
+    </div>
+</div>
 </section>
   </div>
-</div>
  )
 } 
 
