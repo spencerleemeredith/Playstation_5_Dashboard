@@ -3,6 +3,8 @@ import styles from '../styles/Home.module.css'
 
 export default function Home() {
   return (
+
+    // Header Section
 <div className="screen">
   <header>
     <section className="media-nav">
@@ -27,8 +29,9 @@ export default function Home() {
     <span className="time">7:00 PM</span>
     </section>
 </header>
+ {/* End Of Header */}
 </div>
-
+ 
   )
 } 
 
