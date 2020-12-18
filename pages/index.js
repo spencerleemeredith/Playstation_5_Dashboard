@@ -136,6 +136,22 @@ export default function Home() {
       explore the new capabilities of PS5 and feel the world.
     </p>
    </section>
+  <section id="video-trailers">
+    <div className="trailer">
+      <img
+      className="image"
+      src="https://i.imgur.com/Wy1anig.png"
+      />
+
+<div className="video-info">
+  <div className="circle-player">
+    <i className="fa fa-play"></i>
+  </div>
+  
+  <span className="title">Cyber Punk 2077</span>
+    </div>
+</div>
+</section>
   </div>
 </div>
  )

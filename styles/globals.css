@@ -149,3 +149,64 @@ header .settings .time {
          font-weight: 300;
          color: #8f97aa;
        }
+       
+       #video-trailers{
+         white-space: nowrap;
+         overflow-x: scroll;
+         padding-left: 5%;
+       }
+
+       /* ::-webkit-scrollbar {
+        width: 0px;
+        background: transparent;
+      } */
+
+
+       #video-trailers .trailer{
+         position: relative;
+         display: inline-block;
+         white-space: nowrap;
+         width: 350px;
+         height: 200px;
+         background: linear-gradient(
+           60deg,
+            rgba(16,25,37,1) 0%,
+            rgba(0, 0, 0, 1) 50%,
+            rgba(16,25,37,1) 100%
+            );
+         margin-right: 20px;
+         opacity: 1;
+         cursor: pointer;
+       }
+
+       #video-trailers .trailer:hover img {
+         opacity: 1;
+        }
+
+        #video-trailers .trailer img{
+          transition: opacity 0.4s ease-in-out;
+          opacity: 0.5;
+          width: 350px;
+          height: 200px;
+          object-fit: cover;
+        }
+
+        #video-trailers .trailer .video-info{
+          position: absolute;
+          width: 100%;
+          bottom: 0;
+          color: white;
+          padding: 1rem;
+        }
+
+        #video-trailers .trailer .circle-player {
+          background: white;
+          color: black;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          width: 40px;
+          height: 40px;
+          border-radius: 50%;
+          margin-bottom: 1rem;
+        }
