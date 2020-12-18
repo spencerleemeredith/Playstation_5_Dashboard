@@ -23,7 +23,7 @@ export default function Home() {
     <span className="icon">
       <img
       className="user"
-      src="https://pbs.twimg.com/profile_images/1333185751958183938/zc9HL84R_400x400.jpg"
+      src="https://randomuser.me/api/portraits/men/2.jpg"
       />
     </span>
     <span className="time">7:00 PM</span>
