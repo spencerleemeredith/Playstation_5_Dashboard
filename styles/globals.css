@@ -73,5 +73,26 @@ header .settings .user {
 header .settings .time {
   font-size: 2rem;
   color: white;
-
 }
+  .container{
+    max-width: 90%;
+    margin: 0 auto;
+  }
+
+    .game-nav{
+      display: flex;
+      margin-bottom: 250px;
+    }
+      .game-nav .game{
+        background: linear-gradient(60deg, rgba(16,25,37,1) 0%, rgba(00,1) 50% rgba(16,25,37,1) 100%);
+        width: 100px;
+        height: 100px;
+        overflow: hidden; 
+        border-radius: 20%;
+        margin-right: 15px;
+        cursor: pointer;
+        border: 0px soild #576170;
+        
+      }
+
+      

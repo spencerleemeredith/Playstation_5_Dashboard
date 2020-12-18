@@ -30,6 +30,19 @@ export default function Home() {
     </section>
 </header>
  {/* End Of Header */}
+ 
+ {/* 90 percent of screen view */}
+ <div className="container">
+    <section  className="game-nav">
+    <div className="game active">
+      <i className="fa fa-location-arrow"></i>
+    </div>
+
+    </section>
+
+
+
+ </div>
 </div>
  
   )
