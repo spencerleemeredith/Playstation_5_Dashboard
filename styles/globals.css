@@ -129,8 +129,23 @@ header .settings .time {
          width: 100px;
          height: 100px;
          background-size: cover;
-         
-
        }
-
-       
+       .info{
+         width: 50%;
+         margin-bottom: 3rem;
+       }
+       .info .sub-title{
+         font-weight: 300;
+         font-size: 1.2rem;
+         color: #8f97aa;
+       }
+       .info h1{
+         font-size: 3rem;
+         font-weight: 300;
+         color:white;
+       }
+       .info p{
+         font-size: 2rem;
+         font-weight: 300;
+         color: #8f97aa;
+       }
