@@ -156,10 +156,10 @@ header .settings .time {
          padding-left: 5%;
        }
 
-       /* ::-webkit-scrollbar {
+        ::-webkit-scrollbar {
         width: 0px;
         background: transparent;
-      } */
+      }
 
 
        #video-trailers .trailer{
