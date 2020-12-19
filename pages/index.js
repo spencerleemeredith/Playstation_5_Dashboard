@@ -177,19 +177,19 @@ export default function Home() {
     <i className="fa fa-play"></i>
   </div>
   
-//   <span className="title">Cyber Punk 2077</span>
-//     </div>
-// </div>
-// <div className="trailer">
-//       <img
-//       className="image"
-//       src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTUsEzqnRlRfqzRgTvWNSI4axkhEMl5mtPd0g&usqp=CAU"
-//       />
+  <span className="title">Cyber Punk 2077</span>
+    </div>
+</div>
+<div className="trailer">
+      <img
+      className="image"
+      src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTUsEzqnRlRfqzRgTvWNSI4axkhEMl5mtPd0g&usqp=CAU"
+      />
 
-// <div className="video-info">
-//   <div className="circle-player">
-//     <i className="fa fa-play"></i>
-//   </div>
+<div className="video-info">
+  <div className="circle-player">
+    <i className="fa fa-play"></i>
+  </div>
   
   <span className="title">Spider Man: Miles Morales</span>
     </div>
