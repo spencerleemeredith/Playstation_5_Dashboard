@@ -41,7 +41,7 @@ export default function Home() {
       <div
       className="img"
       style={{
-        background: "url('https://resizeimage.net/mypic/kDIKKQ8bA9Jjg4JZ/hHpWt/220px-black_ops_cold_war.jpg')",
+        background: "url('https://i.imgur.com/GaRftDc.jpg')",
         backgroundSize: "contain",
         backgroundPosition: "center",
         transform: "scale(1.5)",
@@ -52,7 +52,7 @@ export default function Home() {
       <div
       className="img"
       style={{
-        background: "url('https://resizeimage.net/mypic/xyGHTGf3U7BVu02u/g3Ruz/fortniteps5.jpg')",
+        background: "url('https://i.imgur.com/HhUlOHj.jpg')",
         backgroundSize: "contain",
         backgroundPosition: "center",
         transform: "scale(1.5)",
@@ -74,7 +74,7 @@ export default function Home() {
       <div
       className="img"
       style={{
-        background: "url('https://resizeimage.net/mypic/c06FcwkbDsMnr5UA/bQ0VH/https___cdn-cnn-com_cnnnext_da.jpg')",
+        background: "url('https://i.imgur.com/67plbeO.jpg')",
         backgroundSize: "contain",
         backgroundPosition: "center",
         transform: "scale(1.5)",
@@ -85,7 +85,7 @@ export default function Home() {
       <div
       className="img"
       style={{
-        background: "url('https://resizeimage.net/mypic/NDReVryc6ZV9niUw/1kVPa/godfall.jpg')",
+        background: "url('https://i.imgur.com/tOPJfdt.jpg')",
         backgroundSize: "contain",
         backgroundPosition: "center",
         transform: "scale(1.5)",
