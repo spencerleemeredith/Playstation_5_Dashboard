@@ -183,7 +183,7 @@ export default function Home() {
 <div className="trailer">
       <img
       className="image"
-      src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTUsEzqnRlRfqzRgTvWNSI4axkhEMl5mtPd0g&usqp=CAU"
+      src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.epicgames.com%2Ffortnite%2Fen-US%2Fhome&psig=AOvVaw1wvKf0OhsVPGDh-Gpj4EYj&ust=1608477990652000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCKjQys2t2u0CFQAAAAAdAAAAABAD"
       />
 
 <div className="video-info">
