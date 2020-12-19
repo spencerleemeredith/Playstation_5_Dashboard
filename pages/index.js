@@ -41,7 +41,18 @@ export default function Home() {
       <div
       className="img"
       style={{
-        background: "url('http://i.redd.it/8pvdi0pne8a51.png')",
+        background: "url('https://resizeimage.net/mypic/kDIKKQ8bA9Jjg4JZ/hHpWt/220px-black_ops_cold_war.jpg')",
+        backgroundSize: "contain",
+        backgroundPosition: "center",
+        transform: "scale(1.5)",
+      }}
+      />
+    </div>
+    <div className="game">
+      <div
+      className="img"
+      style={{
+        background: "url('https://resizeimage.net/mypic/xyGHTGf3U7BVu02u/g3Ruz/fortniteps5.jpg')",
         backgroundSize: "contain",
         backgroundPosition: "center",
         transform: "scale(1.5)",
@@ -63,7 +74,7 @@ export default function Home() {
       <div
       className="img"
       style={{
-        background: "url('http://i.redd.it/8pvdi0pne8a51.png')",
+        background: "url('https://resizeimage.net/mypic/c06FcwkbDsMnr5UA/bQ0VH/https___cdn-cnn-com_cnnnext_da.jpg')",
         backgroundSize: "contain",
         backgroundPosition: "center",
         transform: "scale(1.5)",
@@ -74,13 +85,14 @@ export default function Home() {
       <div
       className="img"
       style={{
-        background: "url('http://i.redd.it/8pvdi0pne8a51.png')",
+        background: "url('https://resizeimage.net/mypic/NDReVryc6ZV9niUw/1kVPa/godfall.jpg')",
         backgroundSize: "contain",
         backgroundPosition: "center",
         transform: "scale(1.5)",
       }}
       />
-    </div>
+
+    {/* </div>
     <div className="game">
       <div
       className="img"
@@ -90,8 +102,9 @@ export default function Home() {
         backgroundPosition: "center",
         transform: "scale(1.5)",
       }}
-      />
-    </div>
+      /> */}
+
+    {/* </div>
     <div className="game">
       <div
       className="img"
@@ -101,8 +114,9 @@ export default function Home() {
         backgroundPosition: "center",
         transform: "scale(1.5)",
       }}
-      />
-    </div>
+      /> */}
+
+    {/* </div>
     <div className="game">
       <div
       className="img"
@@ -112,18 +126,8 @@ export default function Home() {
         backgroundPosition: "center",
         transform: "scale(1.5)",
       }}
-      />
-    </div>
-    <div className="game">
-      <div
-      className="img"
-      style={{
-        background: "url('http://i.redd.it/8pvdi0pne8a51.png')",
-        backgroundSize: "contain",
-        backgroundPosition: "center",
-        transform: "scale(1.5)",
-      }}
-      />
+      /> */}
+
     </div>
     </section>
    <section className="info">
@@ -138,10 +142,11 @@ export default function Home() {
    </section>
    </div>
   <section id="video-trailers">
+    
     <div className="trailer">
       <img
       className="image"
-      src="https://i.imgur.com/Wy1anig.png"
+      src="https://static1-www.millenium.gg/articles/6/19/86/6/@/196478-bo-cold-war-reveal-3-article_m-1.jpg"
       />
 
 <div className="video-info">
@@ -149,10 +154,11 @@ export default function Home() {
     <i className="fa fa-play"></i>
   </div>
   
-  <span className="title">Cyber Punk 2077</span>
+  <span className="title">Call of Duty: Cold War</span>
     </div>
 </div>
-<div className="trailer">
+
+{/* <div className="trailer">
       <img
       className="image"
       src="https://i.imgur.com/Wy1anig.png"
@@ -165,11 +171,13 @@ export default function Home() {
   
   <span className="title">Cyber Punk 2077</span>
     </div>
-</div>
+</div> */}
+
+
 <div className="trailer">
       <img
       className="image"
-      src="https://i.imgur.com/Wy1anig.png"
+      src="https://cdn2.unrealengine.com/15br-social-lineup-social-1920x1080-685054651.jpg"
       />
 
 <div className="video-info">
@@ -177,13 +185,14 @@ export default function Home() {
     <i className="fa fa-play"></i>
   </div>
   
-  <span className="title">Cyber Punk 2077</span>
+  <span className="title">Fortnite</span>
     </div>
 </div>
+
 <div className="trailer">
       <img
       className="image"
-      src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.epicgames.com%2Ffortnite%2Fen-US%2Fhome&psig=AOvVaw1wvKf0OhsVPGDh-Gpj4EYj&ust=1608477990652000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCKjQys2t2u0CFQAAAAAdAAAAABAD"
+      src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTUsEzqnRlRfqzRgTvWNSI4axkhEMl5mtPd0g&usqp=CAU"
       />
 
 <div className="video-info">
@@ -193,6 +202,7 @@ export default function Home() {
   
   <span className="title">Spider Man: Miles Morales</span>
     </div>
+
 </div>
 <div className="trailer">
       <img
@@ -222,7 +232,8 @@ export default function Home() {
   <span className="title">GodFall</span>
     </div>
 </div>
-<div className="trailer">
+
+{/* <div className="trailer">
       <img
       className="image"
       src="https://static1-www.millenium.gg/articles/6/19/86/6/@/196478-bo-cold-war-reveal-3-article_m-1.jpg"
@@ -235,7 +246,7 @@ export default function Home() {
   
   <span className="title">Cyber Punk 2077</span>
     </div>
-</div>
+</div> */}
 </section>
   </div>
  )
